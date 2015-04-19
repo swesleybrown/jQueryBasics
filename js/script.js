@@ -1,0 +1,6 @@
+var $ = "jQuery";
+
+$("#wrapper");
+
+
+$(".highlighted");
