@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>text demo</title>
+  <style>
+  p {
+    color: blue;
+    margin: 8px;
+  }
+  b {
+    color: red;
+  }
+  </style>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<!--  <script src="js/synHigh.js"></script>-->
+  <script src="http://alexgorbatchev.com/pub/sh/current/"></script>
+</head>
+<body>
+
+<hr />
+ 
+<p><b>Test</b> Paragraph.</p>
+<p></p>
+ 
+<hr /> 
+ 
+ <div class="demo-container">
+  <div class="demo-box">Demonstration Box</div>
+  <ul>
+    <li>list item 1</li>
+    <li>list <strong>item</strong> 2</li>
+  </ul>
+</div>
+
+<hr /> 
+<div>
+<h2>How to add HTML elements inside of JavaScript</h2>
+
+<p>instead of using the .text() use .html() </p>
+ 
+ <div class="demo-container2">
+  <div class="demo-box">Demonstration Box</div>
+  <ul>
+    <li>list item 1</li>
+    <li>list <strong>item</strong> 2</li>
+  </ul>
+</div>
+</div>  
+<!--
+<ul>
+  <li>item number 1</li>
+  <li>item number 2</li>
+  <li>item number 3</li>
+</ul>
+-->
+<div>
+<code>$("h1.hero").text("Let’s teach together");</code>
+<pre class="brush: js;"><h1 class="hero">Let’s teach together</h1>, <h1 class="hero">Let’s teach together</h1></pre>
+</div>
+
+
+<script>
+var str = $( "p:first" ).text();
+$( "p:nth-of-type(2)" ).html( str );
+  
+$(  "div.demo-container" ).text( "<p>This is a test.</p>" );
+
+$( "div.demo-container2" ).html( "<p>This is a test.</p>" );
+
+//$( "ul li" ).text(function( index ) {
+//  return "item number " + ( index + 1 );
+//});
+  
+</script>
+ 
+</body>
+</html>
