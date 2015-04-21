@@ -1,0 +1,12 @@
+#important-events h1 {
+  background-color: teal;
+}
+#important-events li {
+  background-color: steelblue;
+}
+section > p {
+  background-color: yellow;
+}
+li:first-child {
+  background-color: steelblue;
+}
