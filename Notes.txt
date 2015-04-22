@@ -1,0 +1,12 @@
+//animate()
+//css
+//append
+//on()
+//parent
+//remove
+//hide
+//show
+//fadeIn
+//fadeOut
+
+things to look at in the api

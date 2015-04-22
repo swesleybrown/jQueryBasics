@@ -31,3 +31,9 @@
 
 console.log($("li").find("span").css({"color": "yellow", "font-size": "3em"}));
 
+$("#important-events").on("click", function() {
+  
+  $("#important-events").focus("slide");
+  
+});
+
